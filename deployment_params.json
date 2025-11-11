@@ -1,0 +1,18 @@
+{
+  "github_url": "https://github.com/Traia-IO/uniswap-v3-subgraph-mcp-server",
+  "mcp_server": {
+    "name": "uniswap-v3-subgraph-mcp",
+    "description": "Decentralized exchange protocol api providing on-chain trading data for ethereum's largest dex. query liquidity pools, token swaps, and concentrated liquidity positions across 3,000+ trading pairs with $4b+ tvl. access real-time pool reserves, token prices derived from pool ratios, 24hr volume statistics, and fee tier distributions (0.01%, 0.05%, 0.3%, 1%). track individual positions with range orders, liquidity provision history, earned fees, and impermanent loss calculations. historical swap data includes transaction hashes, block numbers, timestamps, input/output amounts, and price impact for every trade. monitor pool creation events, liquidity adds/removes, and flash loan activity. advanced queries support tick-level granularity for concentrated liquidity ranges, time-series aggregations for volume/tvl tracking, and multi-hop route discovery for optimal swap paths. factory contract data provides protocol-wide statistics: total volume, total tvl, unique traders count, and transaction counts. token analytics include price history, volume rankings, holder distributions, and cross-pool arbitrage opportunities. essential for mev bot development, arbitrage detection, liquidity mining optimization, impermanent loss analysis, and automated market maker strategies. graphql interface supports complex queries with filtering, sorting, and pagination. rate limits: 1,000 queries/day for free tier.",
+    "server_type": "streamable-http",
+    "requires_api_key": false,
+"capabilities": [
+      "example_tool",
+      "get_api_info"
+    ]
+  },
+  "deployment_method": "cloud_run",
+  "gcp_project_id": "traia-mcp-servers",
+  "gcp_region": "us-central1",
+  "tags": ["uniswap v3 subgraph", "api", "mcp"],
+  "ref": "main"
+} 
